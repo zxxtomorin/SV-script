@@ -1,14 +1,10 @@
--- Auto Tension Drawer with GUI (Reference style)
--- 自动张力绘制脚本（图形调参，采用参考插件的结果格式）
--- 需要 Synthesizer V Studio 2.1.2 或更高版本
-
 function getClientInfo()
   return {
     name = SV:T("自动张力调参版"),
     category = "tomorin",
     author = "tomorin",
     versionNumber = 1,
-    minEditorVersion = 65540,  -- 2.1.2
+    minEditorVersion = 65540,
   }
 end
 
