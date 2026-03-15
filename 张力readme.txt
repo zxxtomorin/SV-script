@@ -1,6 +1,4 @@
-# Auto Tension Drawer with GUI / 自动张力绘制脚本（带图形界面）
-
-This script automatically draws tension curves for notes based on pitch mapping, onset/mid/end adjustments, jitter, and peak processing. It provides a graphical interface to tweak all parameters in real time.
+#自动张力绘制脚本（带图形界面）
 
 本脚本可依据音高映射、起点/中点/终点调整、抖动和峰值处理，为音符自动绘制张力曲线。它提供了一个图形界面，让您能实时调整所有参数。
 
@@ -58,50 +56,5 @@ This script automatically draws tension curves for notes based on pitch mapping,
 本项目采用 MIT 许可证。您可以自由使用、修改和分发，但需保留原作者署名。
 
 ### 作者
-[tomorin]  
+[zxxtomorin]  
 如有问题或建议，欢迎在 GitHub 提交 Issue。
-
----
-
-## English Description
-
-### Introduction
-The "Auto Tension Drawer with GUI" is a script for Synthesizer V Studio that automatically generates tension control points based on user‑defined parameters. It helps you quickly sculpt dynamic vocal expressions, making it ideal for rock, pop, or emotionally intense songs.
-
-### Features
-- **Graphical Interface** – All parameters are adjustable via sliders and combo boxes.
-- **Pitch Mapping** – Base tension is linearly interpolated from the note's pitch (MIDI number).
-- **Onset/Mid/End Adjustments** – Independently boost onset tension, mid‑note tension (for long notes), and decay the end.
-- **Jitter for Long Notes** – Adds random fluctuations inside long notes for a more natural feel.
-- **Peak Processing** – When consecutive pitch peaks are detected, the peak note's tension is reduced while neighboring notes are boosted, creating contrast.
-- **Live Preview** – Tension curves are generated immediately; use undo if you are not satisfied.
-
-### Parameters
-| Parameter | Range | Default | Description |
-|-----------|-------|---------|-------------|
-| Lowest pitch (MIDI) | 0–127 | 48 | Lowest pitch for mapping (e.g., C3) |
-| Tension at lowest pitch | -1 – 1 | 0.1 | Tension value at the lowest pitch |
-| Highest pitch (MIDI) | 0–127 | 84 | Highest pitch for mapping (e.g., C6) |
-| Tension at highest pitch | -1 – 1 | 0.7 | Tension value at the highest pitch |
-| Onset boost factor | 0 – 2 | 1.1 | Multiplier for tension at note onset |
-| Mid boost factor (long notes) | 0 – 2 | 1.5 | Multiplier for tension at the middle of long notes |
-| End decay factor | 0 – 1 | 0.9 | Multiplier for tension at note end |
-| Long note threshold (quarters) | 0 – 10 | 2 | Notes longer than this are considered “long” |
-| Jitter amount | 0 – 0.5 | 0.05 | Random offset added inside long notes |
-| Points per quarter note | 1 – 16 | 4 | Number of control points inserted per quarter note |
-| Peak reduction factor | 0 – 1 | 0.5 | Tension multiplier for peak notes |
-| Neighbor boost factor | 0 – 2 | 1.3 | Tension multiplier for notes adjacent to peaks |
-
-### Usage
-1. Open a project in Synthesizer V Studio and double‑click a track to enter note editing mode.
-2. Make sure the current group contains at least one note (the script works on **all notes in the current group**, not the selection).
-3. Run the script from the “Scripts” menu.
-4. Adjust the parameters in the dialog and click **OK**.
-5. The script will clear the existing tension curve in the group and generate a new one based on the parameters.
-6. If you are not satisfied, use `Ctrl+Z` to undo.
-
-### Installation
-1. Save the script file (`.lua`) into the Synthesizer V Studio scripts folder:
-   - Windows: `%USERPROFILE%\Documents\Dreamtonics\Synthesizer V Studio\scripts\`
-   - macOS: `~/Library/Application Support/Dreamtonics/Synthesizer V Studio/scripts/`
-2. Restart Synthesizer V Studio. The scrip
