@@ -49,7 +49,7 @@ function main()
     return
   end
 
-  -- 构建对话框表单（注意使用 name 而不是 key）
+  -- 构建对话框表单
   local form = {
     title = SV:T("Auto Tension Settings"),
     message = SV:T("Please adjust parameters and click OK."),
