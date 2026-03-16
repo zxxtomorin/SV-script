@@ -1,3 +1,17 @@
+--[[
+    MIT License
+
+    Copyright (c) 2026 zxxtomorin(bilibili 火丁的卫兵)
+
+    tomorin - 自动张力调参版
+
+    I would appreciate it if you could credit me in the work.
+    如果能在工程或作品标注我的名字，我将不胜感激。
+
+    This plugin was made with the assistance of Deepseek.
+    本插件使用 Deepseek 辅助制作。
+--]]
+
 function getClientInfo()
   return {
     name = SV:T("自动张力调参版"),
