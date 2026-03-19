@@ -1,13 +1,8 @@
-#自动张力绘制脚本（带图形界面）
-
-本脚本可依据音高映射、起点/中点/终点调整、抖动和峰值处理，为音符自动绘制张力曲线。它提供了一个图形界面，让您能实时调整所有参数。
-
----
-
+#张力（音高映射版）
 ## 中文说明
 
 ### 简介
-“自动张力调参版”是一个为 Synthesizer V Studio 设计的脚本，它能根据用户设定的参数，在选中的音符组内自动生成张力控制点，从而快速塑造富有动态的演唱表情。脚本内置了音高到张力的线性映射、长音增强、随机抖动以及音高峰值处的特殊处理，非常适合用于制作摇滚、流行或情感强烈的歌曲。
+“张力（音高映射版）”是一个为 Synthesizer V Studio 设计的脚本，它能根据用户设定的参数，在选中的音符组内自动生成张力控制点，从而快速塑造富有动态的演唱表情。脚本内置了音高到张力的线性映射、长音增强、随机抖动以及音高峰值处的特殊处理，非常适合用于制作摇滚、流行或情感强烈的歌曲。
 
 ### 特性
 - **图形化调参**：所有参数均通过滑块和下拉框调整，所见即所得。
@@ -117,7 +112,7 @@
 ## English Description
 
 ### Introduction
-The "Auto Tension Drawer with GUI" is a script for Synthesizer V Studio that automatically generates tension control points based on user‑defined parameters. It helps you quickly sculpt dynamic vocal expressions, making it ideal for rock, pop, or emotionally intense songs.
+The "Tension Drawer (Pitch Mapping)" is a script for Synthesizer V Studio that automatically generates tension control points based on user‑defined parameters. It helps you quickly sculpt dynamic vocal expressions, making it ideal for rock, pop, or emotionally intense songs.
 
 ### Features
 - **Graphical Interface** – All parameters are adjustable via sliders and combo boxes.
