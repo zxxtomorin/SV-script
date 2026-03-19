@@ -104,7 +104,7 @@
 本项目采用 MIT 许可证。您可以自由使用、修改和分发，但需保留原作者署名。
 
 ### 作者
-[zxxtomorin]  
+[tomorin (bilibili: 火丁的卫兵)]  
 如有问题或建议，欢迎在 GitHub 提交 Issue。
 
 ---
@@ -161,5 +161,5 @@ The "Tension Drawer (Pitch Mapping)" is a script for Synthesizer V Studio that a
 This project is licensed under the MIT License. You are free to use, modify, and distribute it, provided the original author is credited.
 
 ### Author
-[zxxtomorin]  
+[tomorin (bilibili: 火丁的卫兵)]  
 For issues or suggestions, please open an issue on GitHub.
