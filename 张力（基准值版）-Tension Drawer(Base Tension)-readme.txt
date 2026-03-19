@@ -81,7 +81,7 @@ Then restart Synthesizer V Studio. The script will appear in the scripts menu.
 ## License / 许可证
 
 MIT License. See the LICENSE file for details.  
-MIT 许可证。详见 LICENSE)文件。
+MIT 许可证。详见 LICENSE文件。
 
 ---
 
