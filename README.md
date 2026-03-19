@@ -1,2 +1,3 @@
 # SV-script
-这里是zxxtomorin（bilibili 火丁的卫兵）的SV插件库，使用deepseek辅助制作。
+这里是zxxtomorin（bilibili 火丁的卫兵）的SV插件库，使用deepseek辅助制作。（使用手册也是它写的，我是懒狗[doge]）
+张力（音高映射版）是deepseek自己发挥的，有群友认为逻辑不对，根据群友的意见重构出了张力（基准值版），但是也有群友说张力（音高映射）好用，我是新手也不懂，于是都留下来了
